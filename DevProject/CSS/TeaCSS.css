@@ -1,0 +1,143 @@
+/* How bout that Universal CSS am I Right */
+
+html {
+  margin: 0;
+  background-color: black;
+  font-family: "Helvetica", sans-serif;
+  color: seashell;
+  font-size: 22px;
+  text-align: center;
+}
+
+h2 {
+  padding: 10px;
+  margin: 0;
+}
+
+h4 {
+  padding: 10px;
+  margin: 0;
+}
+
+nav {
+  height: inherit;
+  text-align: right;
+}
+
+ /* Headers Horribly Organized Yet Functional CSS */
+
+.flex-container {
+  display: flex;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid white;
+}
+
+.flex-container a {
+  padding-left: 20px;
+  font-family: "Helvetica", sans-serif;
+  color: seashell;
+}
+
+.flex-container img {
+  height: 50px;
+  padding-top: 10px;
+  padding-left: 10px;
+  float: left;
+}
+
+#navbar {
+  float: right;
+  width: inherit;
+  align-content: right;
+  height: inherit;
+  vertical-align: middle;
+  line-height: 69px;
+}
+
+/* Or Mission */
+
+.our-mission {
+  height: 700px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  overflow: hidden;
+}
+
+.our-mission-bar {
+  height: auto;
+  width: 1200px;
+  background-color: black;
+  display: block;
+  margin-top: 300px;
+}
+
+/* Tea OF the MONTH BBY */
+
+#store {
+  width: 1000px;
+  height: 700px;
+  padding-top: 70px;
+  margin: auto;
+}
+
+.flex-container-items {
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.main {
+  width: 1200px;
+}
+
+.item {
+  padding: 5px;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+  display: block;
+}
+
+.item span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* The Final Section Style */
+
+.final {
+  height: 570px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg")
+}
+
+#locations h1 {
+ padding-top: 50px;
+}
+
+.threebox {
+  display: inline-block;
+  background-color: black;
+  height: 260px;
+  width: 300px;
+  margin: 30px;
+  opacity: 1;
+}
+
+/* Footer Style Stuff */
+
+footer {
+  height: 200px;
+}
+
+#copyright {
+  text-align: left;
+  margin-top: 20px;
+}
